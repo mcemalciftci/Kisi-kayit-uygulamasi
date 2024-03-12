@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { deleteDoc, doc, updateDoc ,collection, getDocs} from 'firebase/firestore';
 import app, { firestore } from './firebase';
-import './context/popup.css'
+import './popup.css'
 
 
 const Home = () => {

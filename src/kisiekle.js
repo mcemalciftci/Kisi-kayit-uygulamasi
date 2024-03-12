@@ -3,10 +3,6 @@ import { useState , useEffect, useContext} from 'react';
 import {useNavigate} from 'react-router-dom'
 import {firestore }from './firebase';
 import { collection, addDoc, } from 'firebase/firestore';
-import { KullaniciContext } from "./context/KullaniciContext";
-
-
-
 
 const Kisiekle = () => {
     const navigate = useNavigate();

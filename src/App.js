@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, Link, NavLink } from 'react-router-dom';
 import Kisiekle from './kisiekle';
 import Home from './Home';
-import { KullaniciProvider } from './context/KullaniciContext';
-import Popup from './context/popup';
+
 
 const App = () => {
   
